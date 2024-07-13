@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+   <form id="survey-form" method="post"> 
+    <fieldset>
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your Name" required /></label>
+      <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required /></label>
+      <label id="number-label">Number <input id="number" type="number" placeholder="Enter Your Number" min="10" max="12" required/></label>
+    </fieldset>
+    <fieldset>
+    <p id="description">Which option best describes your current role?</p>
+      <select id="dropdown" name="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Student</option>
+        <option value="2">Full time worker</option>
+        <option value="3">Other</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <p id="description">Would you recommend freeCodeCamp to a friend?</p>
+      <label id="definitely"><input id="definitely" type="radio" name="opinion-asked" value="definitely">Definitely</label>
+      <label id="maybe"><input id="maybe" type="radio" name="opinion-asked" value="maybe">Maybe</label>
+      <label id="notsure"><input id="notsure" type="radio" name="opinion-asked" value="notsure">Not sure</label>
+    </fieldset>
+    <fieldset>
+      <p id="description">What would you like to see improved? (Check all that apply)</p>
+      <label id="frontend-project"><input id="frontend-project" type="checkbox" name="project-type" value="frontend-project">Frontend project</label>
+      <label id="backend-project"><input id="backend-project" type="checkbox" name="project-type" value="backend-project">Backend project</label>
+      <label id="fullstack-project"><input id="fullstack-project" type="checkbox" name="project-type" value="fullstack-project">FullStack project</label>
+    </fieldset>
+    <fieldset>
+      <p id="description">Any comments or suggestions?</p>
+      <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+    </fieldset>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+    </body>
+</html>
