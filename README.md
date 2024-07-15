@@ -25,3 +25,6 @@ git clone https://github.com/yourusername/survey-form.git
 cd survey-form
 
 3. Open index.html in your preferred web browser to view the survey form.
+   
+![Screenshot 2024-07-14 024708](https://github.com/user-attachments/assets/ac89aaa4-e974-492e-ac5a-3e815fa0226e)
+
