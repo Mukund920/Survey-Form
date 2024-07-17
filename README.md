@@ -18,13 +18,7 @@ This is a simple survey form created as part of the freeCodeCamp curriculum. The
 7. Comments: A textarea for additional comments or suggestions.
 
 ## Instructions
-1. Clone the repository to your local machine:
-git clone https://github.com/yourusername/survey-form.git
-
-2. Navigate to the project directory:
-cd survey-form
-
-3. Open index.html in your preferred web browser to view the survey form.
+1. Open index.html in your preferred web browser to view the survey form.
    
 ![Screenshot 2024-07-14 024708](https://github.com/user-attachments/assets/ac89aaa4-e974-492e-ac5a-3e815fa0226e)
 
